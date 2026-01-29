@@ -16,8 +16,8 @@ programa en pithon para calcular el area y perimetro de un circulo dado el valor
 -a:area del circulo
 -p:perimetro del circulo
 
-a=/pi*r²
-p=2*/*r$
+$a=/pi*r²$
+$p=2*/*r$
 
 ## Diseño
 
