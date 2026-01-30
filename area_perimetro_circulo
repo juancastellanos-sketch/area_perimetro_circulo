@@ -1,10 +1,10 @@
 #programa para calcular el area  y el perimetro de un circulo
 
 #libreria
-import match
-#
+import math
+#---------
 input
-#
+#---------
 
 print("--------------------------- ")
 print("area y perimetro del circulo")
@@ -16,15 +16,15 @@ r=int(r)
 #
 #procedimiento
 # 
-a=match.pi*r*r a=match.pi*r**2
-p=2*match.pi*r
+a=math.pi*r**2
+p=2*math.pi*r
 
 
 #
 # output
-print("---------------------------")
+print("----------------------------")
 print("-------------resultados-----")
-print("---------------------------")
+print("----------------------------")
 print("el area del circulo es: " + str(a))
 print("el perimetro del circulo es: " + str(p))
 print("-------------------------------------")
