@@ -1,0 +1,31 @@
+#programa para calcular el area  y el perimetro de un circulo
+
+#libreria
+import match
+#
+input
+#
+
+print("--------------------------- ")
+print("area y perimetro del circulo")
+print("----------------------------")
+
+
+r=input ("dijite el valor del radio")
+r=int(r) 
+#
+#procedimiento
+# 
+a=match.pi*r*r a=match.pi*r**2
+p=2*match.pi*r
+
+
+#
+# output
+print("---------------------------")
+print("-------------resultados-----")
+print("---------------------------")
+print("el area del circulo es: " + str(a))
+print("el perimetro del circulo es: " + str(p))
+print("-------------------------------------")
+
